@@ -38,14 +38,6 @@ input {
   transition: height 0.5s;
 }
 
-label::before {
-  content: "+";
-}
-
 #toggle:checked ~ #PROJECTS {
   height: 250px;
-}
-
-#toggle:checked ~ label::before {
-  content: "-";
 }

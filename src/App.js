@@ -12,9 +12,12 @@ class App extends Component {
   }
   render() {
     let resumeData = this.state.resume.resume
+    let iteration = 0
     let resumeSection = resumeData.map(section => {
+      iteration += 1
       return(
         <ContentTile
+          key={iteration}
           id={section.sectionHeading}
           heading={section.sectionHeading}
           body={section.body}
@@ -23,8 +26,8 @@ class App extends Component {
     })
     return (
       <div className="App">
-        <input id="toggle" type="checkbox" checked/>
-        <label for="toggle">Hide section</label>
+        <input id="toggle" type="checkbox"/>
+        <label htmlFor="toggle">Hide section</label>
         {resumeSection}
       </div>
     );
