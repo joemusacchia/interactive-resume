@@ -1,11 +1,17 @@
 {
   "resume": [
     {
-      "sectionHeading": "Experience",
-      "body": "Lots of stuff"
+      "sectionHeading": "TECHNICAL SKILLS",
+      "body": "Languages: JavaScript, Ruby, HTML5, CSS3, R\nDatabases: PostgreSQL, SQL\nSoftware/Tools: Rails, RSpec, Capybara, React.js, Foundation, Git, GitHub, MATLAB, LabView, Arduino\nDesign: Dassault Systems’s SolidWorks CAD\n3D Printing and engineering: Fortus and uPrint FDM 3D printing systems by Stratasy, and side projects using Arduino"
     }, {
-      "sectionHeading": "Education",
-      "body": "Some school"
+      "sectionHeading": "PROJECTS",
+      "body": "Launch Academy capstone project - Pixator: image editing tool | pixator.herokuapp.com, github.com/joemusacchia/pixator\nUsers can upload photos to the site where they can edit images and add text, collaboratively, with multiple users editing shared photos; images can be shared externally on instagram\nLaunch Academy group project - StarCation: a planet review site | starcation.herokuapp.com, github.com/luigilake/starcation\nA review site for cosmological celestial bodies, like planets and stars, as vacation destinations; users can review, comment, and vote on comments of different cosmological phenomena"
+    }, {
+      "sectionHeading": "EXPERIENCE",
+      "body": "Apprentice Full-Stack Web Developer July, 2017 –  November, 2017\nLaunch Academy Boston, MA\nCompleted intensive coding bootcamp to develop technical programming skills necessary to contribute to a collaborative software engineering team • Implemented various development paradigms and tools such as object oriented programming, test-driven development, pair programming, Agile development, etc\nResearch Assistant/Technician February, 2014 –  April, 2017\nWellman Center for Photomedicine at Massachusetts General Hospital Boston, MA\nDesigned, developed, and supported several prototypes for dermatologic\napplications, such\nas intrinsic UV imaging of wound healing, novel hand-held skin biopsy, automated skin sampling with a robotic gantry system for various basic science projects and clinical trials\nProvided support for various in vivo brain imaging projects"
+    }, {
+      "sectionHeading": "EDUCATION",
+      "body": "Graduate Diploma, Jazz Performance, New England Conservatory, Boston, MA September, 2011 – May, 2013\nB.S., Behavioral Neuroscience, Minor in Mathematics, Northeastern University, Boston, MA      January, 2006 – May, 2011"
     }
   ]
 }

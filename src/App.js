@@ -15,6 +15,7 @@ class App extends Component {
     let resumeSection = resumeData.map(section => {
       return(
         <ContentTile
+          id={section.sectionHeading}
           heading={section.sectionHeading}
           body={section.body}
         />
@@ -22,6 +23,8 @@ class App extends Component {
     })
     return (
       <div className="App">
+        <input id="toggle" type="checkbox" checked/>
+        <label for="toggle">Hide section</label>
         {resumeSection}
       </div>
     );
