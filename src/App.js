@@ -26,8 +26,6 @@ class App extends Component {
     })
     return (
       <div className="App">
-        <input id="toggle" type="checkbox"/>
-        <label htmlFor="toggle">Hide section</label>
         {resumeSection}
       </div>
     );

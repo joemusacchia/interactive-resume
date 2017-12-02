@@ -32,12 +32,42 @@ input {
   visibility: hidden;
 }
 
-#PROJECTS {
+#body-TECHNICAL-SKILLS {
   height: 0px;
   overflow: hidden;
   transition: height 0.5s;
 }
 
-#toggle:checked ~ #PROJECTS {
+#toggle-TECHNICAL-SKILLS:checked ~ #body-TECHNICAL-SKILLS {
+  height: 250px;
+}
+
+#body-PROJECTS {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+}
+
+#toggle-PROJECTS:checked ~ #body-PROJECTS {
+  height: 250px;
+}
+
+#body-EXPERIENCE {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+}
+
+#toggle-EXPERIENCE:checked ~ #body-EXPERIENCE {
+  height: 250px;
+}
+
+#body-EDUCATION {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+}
+
+#toggle-EDUCATION:checked ~ #body-EDUCATION {
   height: 250px;
 }
