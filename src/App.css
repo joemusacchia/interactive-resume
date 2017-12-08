@@ -32,6 +32,10 @@ input {
   visibility: hidden;
 }
 
+img {
+  max-height: 100px;
+}
+
 #body-TECHNICAL-SKILLS {
   height: 0px;
   overflow: hidden;
