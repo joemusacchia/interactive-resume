@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import ContentTile from './components/ContentTile'
+import profilePhoto from './Joe_Musacchia_press_photo_small.jpg'
 
 class App extends Component {
   constructor(props) {
@@ -26,6 +27,7 @@ class App extends Component {
     })
     return (
       <div className="App">
+        <img crossOrigin="anonymous" src={profilePhoto} alt="Joe Musacchia" />
         {resumeSection}
       </div>
     );
